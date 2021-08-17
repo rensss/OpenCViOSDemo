@@ -19,6 +19,7 @@
 		1A31E58E26CB656E00B818CB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E58D26CB656E00B818CB /* Photos.framework */; };
 		1A31E59326CB65EF00B818CB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A31E59226CB65EF00B818CB /* BaseViewController.m */; };
 		1A31E59626CB660000B818CB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A31E59526CB660000B818CB /* HomeViewController.m */; };
+		1A31E59B26CB70BD00B818CB /* UIImage+OpenCVForImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A31E59A26CB70BD00B818CB /* UIImage+OpenCVForImage.mm */; };
 		1A874FC6269853C700733A3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A874FC5269853C700733A3D /* AppDelegate.m */; };
 		1A874FD1269853C800733A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A874FD0269853C800733A3D /* Assets.xcassets */; };
 		1A874FD4269853C800733A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A874FD2269853C800733A3D /* LaunchScreen.storyboard */; };
@@ -41,6 +42,8 @@
 		1A31E59426CB660000B818CB /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		1A31E59526CB660000B818CB /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		1A31E59726CB6CBA00B818CB /* OpenCV.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCV.pch; sourceTree = "<group>"; };
+		1A31E59926CB70BD00B818CB /* UIImage+OpenCVForImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCVForImage.h"; sourceTree = "<group>"; };
+		1A31E59A26CB70BD00B818CB /* UIImage+OpenCVForImage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCVForImage.mm"; sourceTree = "<group>"; };
 		1A874FC1269853C700733A3D /* OpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A874FC4269853C700733A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A874FC5269853C700733A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +139,15 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		1A31E59826CB6ECF00B818CB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A31E59926CB70BD00B818CB /* UIImage+OpenCVForImage.h */,
+				1A31E59A26CB70BD00B818CB /* UIImage+OpenCVForImage.mm */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		1A874FB8269853C700733A3D = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				1A31E57826CB64D400B818CB /* Entities */,
+				1A31E59826CB6ECF00B818CB /* Utils */,
 				1A31E57926CB64E000B818CB /* ThirdParty */,
 				1A31E57726CB64B400B818CB /* SupportFiles */,
 			);
@@ -235,6 +248,7 @@
 				1A31E59326CB65EF00B818CB /* BaseViewController.m in Sources */,
 				1A874FD7269853C800733A3D /* main.m in Sources */,
 				1A31E59626CB660000B818CB /* HomeViewController.m in Sources */,
+				1A31E59B26CB70BD00B818CB /* UIImage+OpenCVForImage.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

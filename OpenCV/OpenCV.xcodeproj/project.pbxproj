@@ -7,24 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A31E57B26CB64E000B818CB /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E57A26CB64E000B818CB /* opencv2.framework */; };
+		1A31E57E26CB653100B818CB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E57D26CB652700B818CB /* libc++.tbd */; };
+		1A31E58026CB653A00B818CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E57F26CB653A00B818CB /* AVFoundation.framework */; };
+		1A31E58226CB654100B818CB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E58126CB654100B818CB /* CoreImage.framework */; };
+		1A31E58426CB654900B818CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E58326CB654900B818CB /* CoreGraphics.framework */; };
+		1A31E58626CB655000B818CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E58526CB655000B818CB /* QuartzCore.framework */; };
+		1A31E58826CB655700B818CB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E58726CB655700B818CB /* Accelerate.framework */; };
+		1A31E58A26CB655D00B818CB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E58926CB655D00B818CB /* CoreVideo.framework */; };
+		1A31E58C26CB656400B818CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E58B26CB656400B818CB /* CoreMedia.framework */; };
+		1A31E58E26CB656E00B818CB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A31E58D26CB656E00B818CB /* Photos.framework */; };
+		1A31E59326CB65EF00B818CB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A31E59226CB65EF00B818CB /* BaseViewController.m */; };
+		1A31E59626CB660000B818CB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A31E59526CB660000B818CB /* HomeViewController.m */; };
 		1A874FC6269853C700733A3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A874FC5269853C700733A3D /* AppDelegate.m */; };
-		1A874FC9269853C700733A3D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A874FC8269853C700733A3D /* SceneDelegate.m */; };
-		1A874FCC269853C700733A3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A874FCB269853C700733A3D /* ViewController.m */; };
-		1A874FCF269853C700733A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A874FCD269853C700733A3D /* Main.storyboard */; };
 		1A874FD1269853C800733A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A874FD0269853C800733A3D /* Assets.xcassets */; };
 		1A874FD4269853C800733A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A874FD2269853C800733A3D /* LaunchScreen.storyboard */; };
 		1A874FD7269853C800733A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A874FD6269853C800733A3D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A31E57A26CB64E000B818CB /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		1A31E57D26CB652700B818CB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1A31E57F26CB653A00B818CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1A31E58126CB654100B818CB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1A31E58326CB654900B818CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A31E58526CB655000B818CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1A31E58726CB655700B818CB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1A31E58926CB655D00B818CB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1A31E58B26CB656400B818CB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1A31E58D26CB656E00B818CB /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		1A31E59126CB65EF00B818CB /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1A31E59226CB65EF00B818CB /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1A31E59426CB660000B818CB /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1A31E59526CB660000B818CB /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		1A874FC1269853C700733A3D /* OpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A874FC4269853C700733A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A874FC5269853C700733A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A874FC7269853C700733A3D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		1A874FC8269853C700733A3D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		1A874FCA269853C700733A3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A874FCB269853C700733A3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1A874FCE269853C700733A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A874FD0269853C800733A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A874FD3269853C800733A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A874FD5269853C800733A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,17 +54,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A31E57E26CB653100B818CB /* libc++.tbd in Frameworks */,
+				1A31E58E26CB656E00B818CB /* Photos.framework in Frameworks */,
+				1A31E58826CB655700B818CB /* Accelerate.framework in Frameworks */,
+				1A31E57B26CB64E000B818CB /* opencv2.framework in Frameworks */,
+				1A31E58C26CB656400B818CB /* CoreMedia.framework in Frameworks */,
+				1A31E58626CB655000B818CB /* QuartzCore.framework in Frameworks */,
+				1A31E58026CB653A00B818CB /* AVFoundation.framework in Frameworks */,
+				1A31E58426CB654900B818CB /* CoreGraphics.framework in Frameworks */,
+				1A31E58226CB654100B818CB /* CoreImage.framework in Frameworks */,
+				1A31E58A26CB655D00B818CB /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A31E57726CB64B400B818CB /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1A874FC4269853C700733A3D /* AppDelegate.h */,
+				1A874FC5269853C700733A3D /* AppDelegate.m */,
+				1A874FD0269853C800733A3D /* Assets.xcassets */,
+				1A874FD2269853C800733A3D /* LaunchScreen.storyboard */,
+				1A874FD5269853C800733A3D /* Info.plist */,
+				1A874FD6269853C800733A3D /* main.m */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		1A31E57826CB64D400B818CB /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1A31E58F26CB65D200B818CB /* Base */,
+				1A31E59026CB65DA00B818CB /* Home */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		1A31E57926CB64E000B818CB /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				1A31E57A26CB64E000B818CB /* opencv2.framework */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1A31E57C26CB652700B818CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A31E58D26CB656E00B818CB /* Photos.framework */,
+				1A31E58B26CB656400B818CB /* CoreMedia.framework */,
+				1A31E58926CB655D00B818CB /* CoreVideo.framework */,
+				1A31E58726CB655700B818CB /* Accelerate.framework */,
+				1A31E58526CB655000B818CB /* QuartzCore.framework */,
+				1A31E58326CB654900B818CB /* CoreGraphics.framework */,
+				1A31E58126CB654100B818CB /* CoreImage.framework */,
+				1A31E57F26CB653A00B818CB /* AVFoundation.framework */,
+				1A31E57D26CB652700B818CB /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A31E58F26CB65D200B818CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1A31E59126CB65EF00B818CB /* BaseViewController.h */,
+				1A31E59226CB65EF00B818CB /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1A31E59026CB65DA00B818CB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1A31E59426CB660000B818CB /* HomeViewController.h */,
+				1A31E59526CB660000B818CB /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		1A874FB8269853C700733A3D = {
 			isa = PBXGroup;
 			children = (
 				1A874FC3269853C700733A3D /* OpenCV */,
 				1A874FC2269853C700733A3D /* Products */,
+				1A31E57C26CB652700B818CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,17 +154,9 @@
 		1A874FC3269853C700733A3D /* OpenCV */ = {
 			isa = PBXGroup;
 			children = (
-				1A874FC4269853C700733A3D /* AppDelegate.h */,
-				1A874FC5269853C700733A3D /* AppDelegate.m */,
-				1A874FC7269853C700733A3D /* SceneDelegate.h */,
-				1A874FC8269853C700733A3D /* SceneDelegate.m */,
-				1A874FCA269853C700733A3D /* ViewController.h */,
-				1A874FCB269853C700733A3D /* ViewController.m */,
-				1A874FCD269853C700733A3D /* Main.storyboard */,
-				1A874FD0269853C800733A3D /* Assets.xcassets */,
-				1A874FD2269853C800733A3D /* LaunchScreen.storyboard */,
-				1A874FD5269853C800733A3D /* Info.plist */,
-				1A874FD6269853C800733A3D /* main.m */,
+				1A31E57826CB64D400B818CB /* Entities */,
+				1A31E57926CB64E000B818CB /* ThirdParty */,
+				1A31E57726CB64B400B818CB /* SupportFiles */,
 			);
 			path = OpenCV;
 			sourceTree = "<group>";
@@ -134,7 +219,6 @@
 			files = (
 				1A874FD4269853C800733A3D /* LaunchScreen.storyboard in Resources */,
 				1A874FD1269853C800733A3D /* Assets.xcassets in Resources */,
-				1A874FCF269853C700733A3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,24 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A874FCC269853C700733A3D /* ViewController.m in Sources */,
 				1A874FC6269853C700733A3D /* AppDelegate.m in Sources */,
+				1A31E59326CB65EF00B818CB /* BaseViewController.m in Sources */,
 				1A874FD7269853C800733A3D /* main.m in Sources */,
-				1A874FC9269853C700733A3D /* SceneDelegate.m in Sources */,
+				1A31E59626CB660000B818CB /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A874FCD269853C700733A3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A874FCE269853C700733A3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A874FD2269853C800733A3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,6 +369,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KY9HF8C4PA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCV/ThirdParty",
+				);
 				INFOPLIST_FILE = OpenCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,6 +391,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KY9HF8C4PA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCV/ThirdParty",
+				);
 				INFOPLIST_FILE = OpenCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

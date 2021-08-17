@@ -40,6 +40,7 @@
 		1A31E59226CB65EF00B818CB /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		1A31E59426CB660000B818CB /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		1A31E59526CB660000B818CB /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1A31E59726CB6CBA00B818CB /* OpenCV.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCV.pch; sourceTree = "<group>"; };
 		1A874FC1269853C700733A3D /* OpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A874FC4269853C700733A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A874FC5269853C700733A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 			children = (
 				1A874FC4269853C700733A3D /* AppDelegate.h */,
 				1A874FC5269853C700733A3D /* AppDelegate.m */,
+				1A31E59726CB6CBA00B818CB /* OpenCV.pch */,
 				1A874FD0269853C800733A3D /* Assets.xcassets */,
 				1A874FD2269853C800733A3D /* LaunchScreen.storyboard */,
 				1A874FD5269853C800733A3D /* Info.plist */,
@@ -373,6 +375,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenCV/ThirdParty",
 				);
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/OpenCV.pch";
 				INFOPLIST_FILE = OpenCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -395,6 +398,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/OpenCV/ThirdParty",
 				);
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/OpenCV.pch";
 				INFOPLIST_FILE = OpenCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
